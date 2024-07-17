@@ -16,18 +16,9 @@ header {
     background-color: #22074b;
 }
 
-img {
-    background-image: url("/assets/clouds.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-}
-
 .font-title {
-    font-family: "Nabla", system-ui;
-    font-size: 60px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 50px;
 }
 
 .font-text {
@@ -54,7 +45,7 @@ img {
 
 .font-planets {
     font-family: "Edu AU VIC WA NT Hand", cursive;
-    font-size: 50px;
+    font-size: 55px;
 }
 
 .card img {
@@ -63,11 +54,11 @@ img {
 }
 
 .container-cards {
-    background-image: url("/assets/HuGGeENt6kGyixe3hT9tnY.jpg");
+    background-image: url("/assets/pexels-photo-998641.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 70vh;
+    height: 80vh;
 }
 
 .un {
@@ -96,5 +87,5 @@ img {
 }
 
 #menu {
-    font-size: 20px;
+    font-size: 22px;
 }
