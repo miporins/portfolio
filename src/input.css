@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #22074b;
+}
+
+img {
+    background-image: url("/assets/clouds.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.font-title {
+    font-family: "Nabla", system-ui;
+    font-size: 60px;
+}
+
+.font-text {
+    font-family: "Dosis", cursive;
+    font-size: 20px;
+}
+
+.font-text-l {
+    font-family: "Dosis", cursive;
+    font-size: 20px;
+    color: #433D8B;
+
+}
+
+.navbar {
+     color: #C8ACD6;
+}
+
+.card {
+    max-width: auto;
+    height: auto;
+}
+
+
+.font-planets {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 50px;
+}
+
+.card img {
+    width: 130px;
+    height: 130px;
+}
+
+.container-cards {
+    background-image: url("/assets/HuGGeENt6kGyixe3hT9tnY.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+
+.un {
+    display: inline-block;
+  }
+  
+  .un:after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: #C8ACD6;
+    transition: 600ms;
+  }
+  
+  .un:hover:after {
+    width: 100%;
+
+}
+
+.font-sub {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 20px;
+    color: #C8ACD6;
+    max-width: 75%;
+}
+
+#menu {
+    font-size: 20px;
+}
