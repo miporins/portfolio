@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Cafólio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="/src/output.css" rel="stylesheet">
     <link href="/src/input.css" rel="stylesheet">
 </head>
 <body>
     <main class="flex flex-col">
-        <header class="relative align-middle bg-gray-700">
+        <header class="relative align-middle bg-zinc-900">
             <div class="intro-text text-center grid justify-items-center justify-center">
                 <div class="only-text relative z-10 mt-20">
-                    <h1 class="font-title text-purple-700 hover:text-purple-400 select-none">
+                    <h1 class="font-title text-gray-200 hover:text-purple-400 select-none" data-aos="fade-down" data-aos-duration="900">
                         Carol Saldanha
                     </h1>
-                    <p class="font-sub mt-10 p-2 m-auto sm:block hidden">Brasileira, bacharel em Psicologia, Customer Support, Technical Support, Tradutora, cursando Análise e Desenvolvimento de Sistemas</p>
+
+                    <p class="font-sub mt-5 p-2 m-auto sm:block hidden text-gray-200">Brasileira, bacharel em Psicologia, Customer Support, Technical Support, Tradutora, cursando Análise e Desenvolvimento de Sistemas</p>
                     
-                    <ul class="pt-10 flex flex-col justify-center sm:hidden font-sub m-auto">
+                    <ul class="pt-10 flex flex-col justify-center sm:hidden font-sub m-auto text-gray-200">
                         <li>Brasileira</li>
                         <li>bacharel em Psicologia</li>
                         <li>Customer Support</li>
@@ -39,7 +41,7 @@
             </nav>
 
             <form class="py-10 max-w-80 mx-auto block sm:hidden">
-                <select id="menu" class="font-text rounded-lg block w-full p-2.5 bg-gray-700 text-purple-400 text-center focus:outline-none">
+                <select id="menu" class="font-text rounded-lg block w-full p-2.5 bg-zinc-900 text-purple-400 text-center focus:outline-none">
                   <option selected><a href="#">Sobre</a></option>
                   <option><a href="#">Projetos</a></option>
                   <option><a href="#">Experiências</a></option>
@@ -51,19 +53,19 @@
         </header>
 
         <div class="container-cards justify-center w-100 md:flex sm:block py-10">
-            <div class="hover:cursor-pointer card flex justify-center items-center text-center hover:scale-110 hover:rotate-6 transition mx-32 my-16">
-                <img class="bg-none opacity-90" src="/assets/mars.png" alt="">
-                <span class="absolute text-purple-500 font-planets">Projetos</span>
+            <div class="hover:cursor-pointer card flex justify-center items-center text-center hover:scale-110 hover:rotate-6 transition mx-32 my-16 text-gray-200 hover:text-purple-400">
+                <img class="bg-none opacity-80" src="/assets/mars.png" alt="">
+                <span class="absolute font-planets">Projetos</span>
             </div>
-            <div class="hover:cursor-pointer card flex justify-center items-center text-center hover:scale-110 hover:rotate-6 transition mx-32 my-20">
-                <img class="bg-none opacity-90" src="/assets/planet.png" alt="">
-                <span class="absolute text-purple-500 font-planets">Experiências</span>
+            <div class="hover:cursor-pointer card flex justify-center items-center text-center hover:scale-110 hover:rotate-6 transition mx-32 my-20 text-gray-200 hover:text-purple-400">
+                <img class="bg-none opacity-80" src="/assets/planet.png" alt="">
+                <span class="absolute font-planets">Experiências</span>
             </div>
             <div class="card"></div>
             <div class="card"></div>
         </div>
         
-        <footer class="py-10 text-center flex justify-center flex-col bg-gray-700">
+        <footer class="py-5 text-center flex justify-center flex-col bg-zinc-900">
             <div class="buttons-container p-20 navbar">
                 <p class="font-text mb-5">Let's work together</p>
                 <div class="buttons flex justify-center gap-5">
@@ -78,5 +80,7 @@
             </section>
         </footer>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
     </body>
 </html>
