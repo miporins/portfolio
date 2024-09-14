@@ -56,8 +56,17 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 75vh;
+    height: 60vh;
 }
+
+.container-background {
+    background-image: url("/assets/visualpurple.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+}
+
 
 .un {
     display: inline-block;
@@ -74,7 +83,6 @@
   
   .un:hover:after {
     width: 100%;
-
 }
 
 .font-sub {
@@ -86,4 +94,31 @@
 
 #menu {
     font-size: 22px;
+}
+
+.imgs-container {
+    width: 70%;
+
+}
+
+.intro-container h1 {
+    color: #C8ACD6;
+}
+
+.intro-container img {
+    border-radius: 0;
+}
+
+.imgs-container {
+    border-top-left-radius: 100%;
+}
+
+#eu {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#lone {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
 }

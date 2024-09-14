@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Cafólio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="/src/output.css" rel="stylesheet">
+    <link href="/src/input.css" rel="stylesheet">
+</head>
+<body>
+    <main class="flex flex-col">
+        <header class="relative align-middle bg-zinc-900">
+            <div class="intro-text text-center grid justify-items-center justify-center">
+                <div class="only-text relative z-10 mt-20">
+                    <h1 class="font-title text-gray-200 hover:text-purple-400 select-none" data-aos="fade-down" data-aos-duration="900">
+                        <a href="/index.html" title="Carol Saldanha" class="tracking-widest">Carol Saldanha</a>
+                    </h1>
+
+                    <p class="font-sub mt-5 p-2 m-auto sm:block hidden text-gray-200 tracking-widest">Brasileira, bacharel em Psicologia, Customer Support, Technical Support, Tradutora, cursando Análise e Desenvolvimento de Sistemas</p>
+                    
+                    <ul class="pt-10 flex flex-col justify-center sm:hidden font-sub m-auto text-gray-200 tracking-widest">
+                        <li>Brasileira</li>
+                        <li>bacharel em Psicologia</li>
+                        <li>Customer Support</li>
+                        <li>Technical Support</li>
+                        <li>Tradutora</li>
+                        <li>cursando Análise e Desenvolvimento de Sistemas</li>
+                    </ul>
+                </div>
+            </div>
+
+            <nav class="relative z-10 mt-8 sm:block hidden tracking-widest">
+                <ul class="flex justify-center space-x-8 navbar p-4 rounded font-text transition ease-in-out">
+                    <li class="un"><a href="sobre.html">Sobre</a></li>
+                    <li class="un"><a href="#">Experiências</a></li>
+                    <li class="un"><a href="#">Projetos</a></li>
+                    <li class="un"><a href="#">Parcerias</a></li>
+                </ul>
+            </nav>
+
+            <form class="py-10 max-w-80 mx-auto block sm:hidden tracking-widest">
+                <select id="menu" class="font-text rounded-lg block w-full p-2.5 bg-zinc-900 text-purple-400 text-center focus:outline-none">
+                  <option selected><a href="sobre.html">Sobre</a></option>
+                  <option><a href="#">Experiências</a></option>
+                  <option><a href="#">Projetos</a></option>
+                  <option><a href="#">Parcerias</a></option>
+                </select>
+              </form>
+            
+
+        </header>
+
+        <section class="projects bg-zinc-900">
+            <div class="card flex flex-col sm:flex-row sm:max-w-2xl max-w-xs mx-auto overflow-hidden bg-gray-700 rounded-lg shadow-lg dark:bg-gray-800 p-2">
+                <div class="p-2 sm:w-1/2">
+                    <img class="rounded object-cover w-full sm:h-80 h-60" src="https://i.pinimg.com/564x/41/c7/52/41c75274ffa14f3222691c0cbe3c1904.jpg" alt="Article" />
+                </div>
+                <div class="sm:p-4 p-2 sm:w-1/2 flex flex-col justify-between">
+                    <div>
+                        <a href="#"
+                            class="block sm:mt-2 text-2xl font-semibold text-gray-50 dark:text-white hover:text-gray-600 hover:underline">Lorem
+                            rem facere</a>
+                        <p class="mt-2 text-sm text-gray-200 dark:text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Tenetur labore, cum rem facere obcaecati beatae sunt numquam architecto delectus dignissimos
+                            explicabo quod pariatur at consequatur sint esse aut Facere. <br> Numquam architecto delectus dignissimos
+                        </p>
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="flex items-center">
+                            <div class="flex items-center">
+                                <img class="object-cover h-10 w-10 rounded-full" src="https://i.pinimg.com/564x/1d/1e/16/1d1e16ad5227a9c726b61bd7cc4eca33.jpg" alt="Avatar" />
+                                <a href="#" class="mx-2 font-semibold text-gray-50 dark:text-gray-200">Tocino Code</a>
+                            </div>
+                            <span class="mx-1 text-xs text-gray-400 dark:text-gray-300">21 SEP 2015</span>
+                            <span class="hover:cursor-pointer relative sm:left-12 text-xs text-gray-400 dark:text-gray-300"
+                    >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#f2f2f2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="18" cy="5" r="3"></circle>
+                        <circle cx="6" cy="12" r="3"></circle>
+                        <circle cx="18" cy="19" r="3"></circle>
+                        <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                        <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                        </svg>
+                    </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card flex flex-col sm:flex-row sm:max-w-2xl max-w-xs mx-auto overflow-hidden bg-gray-700 rounded-lg shadow-lg dark:bg-gray-800 p-2">
+                <div class="p-2 sm:w-1/2">
+                    <img class="rounded object-cover w-full sm:h-80 h-60" src="https://i.pinimg.com/564x/41/c7/52/41c75274ffa14f3222691c0cbe3c1904.jpg" alt="Article" />
+                </div>
+                <div class="sm:p-4 p-2 sm:w-1/2 flex flex-col justify-between">
+                    <div>
+                        <a href="#"
+                            class="block sm:mt-2 text-2xl font-semibold text-gray-50 dark:text-white hover:text-gray-600 hover:underline">Lorem
+                            rem facere</a>
+                        <p class="mt-2 text-sm text-gray-200 dark:text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Tenetur labore, cum rem facere obcaecati beatae sunt numquam architecto delectus dignissimos
+                            explicabo quod pariatur at consequatur sint esse aut Facere. <br> Numquam architecto delectus dignissimos
+                        </p>
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="flex items-center">
+                            <div class="flex items-center">
+                                <img class="object-cover h-10 w-10 rounded-full" src="https://i.pinimg.com/564x/1d/1e/16/1d1e16ad5227a9c726b61bd7cc4eca33.jpg" alt="Avatar" />
+                                <a href="#" class="mx-2 font-semibold text-gray-50 dark:text-gray-200">Tocino Code</a>
+                            </div>
+                            <span class="mx-1 text-xs text-gray-400 dark:text-gray-300">21 SEP 2015</span>
+                            <span class="hover:cursor-pointer relative sm:left-12 text-xs text-gray-400 dark:text-gray-300"
+                    >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#f2f2f2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="18" cy="5" r="3"></circle>
+                        <circle cx="6" cy="12" r="3"></circle>
+                        <circle cx="18" cy="19" r="3"></circle>
+                        <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                        <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                        </svg>
+                    </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card flex flex-col sm:flex-row sm:max-w-2xl max-w-xs mx-auto overflow-hidden bg-gray-700 rounded-lg shadow-lg dark:bg-gray-800 p-2">
+                <div class="p-2 sm:w-1/2">
+                    <img class="rounded object-cover w-full sm:h-80 h-60" src="https://i.pinimg.com/564x/41/c7/52/41c75274ffa14f3222691c0cbe3c1904.jpg" alt="Article" />
+                </div>
+                <div class="sm:p-4 p-2 sm:w-1/2 flex flex-col justify-between">
+                    <div>
+                        <a href="#"
+                            class="block sm:mt-2 text-2xl font-semibold text-gray-50 dark:text-white hover:text-gray-600 hover:underline">Lorem
+                            rem facere</a>
+                        <p class="mt-2 text-sm text-gray-200 dark:text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Tenetur labore, cum rem facere obcaecati beatae sunt numquam architecto delectus dignissimos
+                            explicabo quod pariatur at consequatur sint esse aut Facere. <br> Numquam architecto delectus dignissimos
+                        </p>
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="flex items-center">
+                            <div class="flex items-center">
+                                <img class="object-cover h-10 w-10 rounded-full" src="https://i.pinimg.com/564x/1d/1e/16/1d1e16ad5227a9c726b61bd7cc4eca33.jpg" alt="Avatar" />
+                                <a href="#" class="mx-2 font-semibold text-gray-50 dark:text-gray-200">Tocino Code</a>
+                            </div>
+                            <span class="mx-1 text-xs text-gray-400 dark:text-gray-300">21 SEP 2015</span>
+                            <span class="hover:cursor-pointer relative sm:left-12 text-xs text-gray-400 dark:text-gray-300"
+                    >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#f2f2f2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="18" cy="5" r="3"></circle>
+                        <circle cx="6" cy="12" r="3"></circle>
+                        <circle cx="18" cy="19" r="3"></circle>
+                        <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                        <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                        </svg>
+                    </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="py-5 text-center flex justify-center flex-col bg-zinc-900">
+            <div class="buttons-container p-20 navbar">
+                <p class="font-text mb-5">Let's work together</p>
+                <div class="buttons flex justify-center gap-5">
+                    <button class="px-10 py-2 rounded-xl bg-violet-900 hover:text-purple-300 hover:bg-violet-800 font-text transition">Email me</button>
+                </div>
+            </div>
+
+            <section class="links flex justify-center items-center gap-3 mb-10">
+                <a href="#"><img class="w-10 bg-none opacity-75 hover:opacity-60" src="/assets/icons8-github-64.png" alt=""></a>
+                <a href="#"><img class="w-10 bg-none opacity-75 hover:opacity-60" src="/assets/icons8-linkedin-50.png" alt=""></a>
+
+            </section>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    </body>
+</html>
